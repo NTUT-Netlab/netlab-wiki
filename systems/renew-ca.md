@@ -9,33 +9,42 @@
 ## 操作步驟
 
 1. 登入 pfsense，點選上方選單 **Services** > **HAProxy**，進入 HAProxy 設定頁面
+
 ![](/img/renew-ca/fig1.png)
 
 2. 找到 `netlab-web-tls` 那行，點一下綠色勾勾以便將網站的 Proxy 先關閉。因為我們使用的 ACME Challenge Type 為 [TLS-ALPN-01](https://letsencrypt.org/docs/challenge-types/#tls-alpn-01)，會使用 port 443 做驗證，所以佔用這個 port 的服務必須先關閉。
+
 ![](/img/renew-ca/fig2.png)
 
 3. 點完綠色勾勾，會出現黃色提示，務必點選 **Apply Changes** 才會套用設定。
+
 ![](/img/renew-ca/fig3.png)
 
 4. 點選上方選單 **Services** > **Acme Certificates**
+
 ![](/img/renew-ca/fig4.png)
 
 5. 點選 **Issue/Renew** 按鈕，你會看到齒輪在轉，並耐心等待(不要離開頁面)
+
 ![](/img/renew-ca/fig5.png)
 ![](/img/renew-ca/fig6.png)
 
 6. 完成後會跳出綠色的 log，不要以為是綠色的就是成功了，檢查一下 log 最下面有 `Reload success` 才是憑證更新成功。
+
 ![](/img/renew-ca/fig7.png)
 ![](/img/renew-ca/fig8.png)
 
 7. 重新整理頁面，檢查 **Last renewed** 是憑證更新當天的時間
+
 ![](/img/renew-ca/fig9.png)
 
 8. 記得把網站的 proxy 開回來，到 **HAProxy** 頁面找到實驗室網站那排，點一下禁止標誌圖示，一樣在跳出的黃色提示點選 **Apply Changes** 以套用設定。
+
 ![](/img/renew-ca/fig10.png)
 ![](/img/renew-ca/fig3.png)
 
 9. 上一下實驗室網站 netlab.csie.ntut.edu.tw，檢查網站功能性，以及憑證的期限是否有延長。
+
 ![](../img/renew-ca/fig11.png)
 ![](../img/renew-ca/fig12.png)
 
