@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/NTUT-Netlab/netlab-wiki/main/img/logo.png" alt="Markdownify" width="200">
+  <img src="/img/logo.png" alt="Netlab" width="200">
   <br>
   Netlab Wiki
   <br>
