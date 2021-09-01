@@ -20,6 +20,8 @@
 
 ![](/img/web-dev/fig1.png)
 
+*[使用 Draw.io 編輯圖片](https://drive.google.com/file/d/1G6gq8FBaensq4cAeNmOU06wtxW2wIIrq/view?usp=sharing)*
+
 - 我們使用兩台 VM 作為 web server，採用 Active-Standby 的 HA 架構，透過 pfsense 的 HAProxy 模組實現 Active-Standby 和 proxy 機制
 - 當程式碼推送到 Gitlab 後，Gitlab 會自動 Build 靜態頁面檔案，並且自動將檔案覆蓋到這兩台 VM 上
 
@@ -246,8 +248,8 @@ lang: zh-TW
 
 記得設定你在Gitlab帳號的名稱和email
 ```sh
-git configure user.email 'xxxxx@example.com'
-git configure user.name 'xxxx'
+git config user.email 'xxxxx@example.com'
+git config user.name 'xxxx'
 ```
 
 ```sh
