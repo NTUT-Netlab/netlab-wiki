@@ -18,7 +18,7 @@
   <a href="#系統網路">系統網路</a> •
   <a href="#實驗室網頁開發">實驗室網頁開發</a> •
   <a href="#credits">交接</a> •
-  <a href="#其他注意事項">其他注意事項</a>
+  <a href="#其他注意事項">其他注意事項</a> •
   <a href="#netlab-admins">Netlab Admins</a>
 </p>
 
