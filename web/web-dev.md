@@ -260,7 +260,9 @@ git push
 
 ![](/img/web-dev/fig4.png)
 
-Pipeline 分為 Build 和 Deploy 兩階段，只要Deploy那邊都是律勾勾，網站就更新完成了。
+Pipeline 分為 Build 和 Deploy 兩階段，只要Deploy那邊的 prod-active 和 prod-standby 都是綠勾勾，網站就更新完成了。prod-active 和 prod-standby 就是上面提過的 Active 和 Standby 的 web server。
+
+![](/img/web-dev/fig5.png)
 
 如果 Gitlab 這時跑出 503 錯誤，別慌，過一陣子回來他就會好，這是 Gitlab runner 執行時常有的毛病。
 
