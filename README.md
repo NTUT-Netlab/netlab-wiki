@@ -32,17 +32,18 @@
 
 ## 原則
 
-1. 作為 Admin 的責任，就是 Linux 裡面第一次輸入`sudo`時的提示訊息：
+1. 任何看似多餘的設定，其實都是必要的，平常請勿更改明明運行正常的設定，Unless you know what you're doing.
+2. 作為 Admin 的責任，就是 Linux 裡面第一次輸入`sudo`時的提示訊息：
    - #1) Respect the privacy of others.
    - #2) Think before you type.
    - #3) With great power comes great responsibility.
-2. Be stronger than your strongest excuse.
+3. Be stronger than your strongest excuse.
    - 有時可能會覺得：我學這麼多東西幹麻...之類的，別讓找藉口的力氣，勝過學習的動力
-3. 你一定要會 Linux 的常用指令
+4. 你一定要會 Linux 的常用指令
    - 在 Wiki 裡面的指令都是以 Linux 為主，你可以在 Windows 開 WSL 練習，然後我使用的 Ubuntu 都是 headless server，沒有 GUI，請學會敲指令。
-4. Have backbone, disagree and commit.
+5. Have backbone, disagree and commit.
    - 若有錯誤或是不足的地方，請動手改善
-5. Dive deep
+6. Dive deep
    - 我在每個文件後面都會有 Dive deep 區塊，如果想了解更多細節，別害怕就直接 dive deep吧，工程師的價值就是這麼來的
 
 ## 系統網路
