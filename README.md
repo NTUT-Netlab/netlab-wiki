@@ -50,6 +50,9 @@
 
 Work in progress
 
+- 給新進實驗室的人看的文件
+  - [Netlab Guides for Newcomers](https://github.com/NTUT-Netlab/netlab-wiki/blob/main/general/guides-4-newcomer.md)
+
 - 網路管理
   - [連接進入 Netlab 系統 LAN](https://github.com/NTUT-Netlab/netlab-wiki/blob/main/systems/connecting-to-lan.md)
   - [實驗室網路架構](https://github.com/NTUT-Netlab/netlab-wiki/blob/main/systems/network-structure.md)
