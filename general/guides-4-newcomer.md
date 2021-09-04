@@ -18,6 +18,7 @@
 ![](https://i.imgur.com/DpP82g4.png)
 
 2. IP Address `140.124.182.184`
+使用者名稱 `netlab`
 密碼 `netlab1423`
 
 ![](https://i.imgur.com/knlHVJC.png)
