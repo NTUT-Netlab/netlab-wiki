@@ -37,9 +37,11 @@ pfsense 有兩個 WAN 的 IP。一個是 `140.124.182.213`，這個 IP 可以透
 | 172.30.0.101            | ESXi 管理IP                     | 這是架構圖中的「軟體路由器」的ESXi 管理IP，這台ESXi受到 vSphere 的管理，可以直接登入 vSphere 網頁管理整個叢集，而不用透過這個 IP 的ESXi管理界面管理。            |
 | 172.30.0.102            | ESXi 管理IP                     | 這是架構圖中的「AI學習機」的ESXi 管理IP，這台ESXi受到 vSphere 的管理，可以直接登入 vSphere 網頁管理整個叢集，而不用透過這個 IP 的ESXi管理界面管理。              |
 | 172.30.0.110            | [VM] vSphere                    | 這個 VM 是一個 VMWare 的 ESXi 叢集管理系統，可以管理多台裝有 ESXi Hypervisor 的伺服器，登入這個 IP 的網頁就可以管理所有架構中所有主機上的 VM                     |
+| 172.30.254              | Cisco 2950 Switch 管理 IP       | Layer 2 的 Switch 有 IP?? 別誤會，這只是讓你遠端登入 Switch 做設定的管理IP                                                                                       |
 
 ## WAN 位址對照
 
 WAN 的 IP 就是屬於學校的 IP，資安考量不會在這裡公開，畢竟計中那邊的防火牆是佛系擋法。
 
 請見另一個 Private 專案的 [WAN 位址對照](https://github.com/NTUT-Netlab/confidential/blob/main/ntut-wan-ip-addresses.md)
+
