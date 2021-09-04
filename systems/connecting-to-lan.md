@@ -1,6 +1,6 @@
 # 連接進入 Netlab 系統 LAN
 
-整個系統是以 pfsense 為中心分為 WAN 與 LAN，為了資安考量，許多管理界面(Portal) 只對 LAN 的網段 (`172.30.0.0/24`) 開放，因此管理者必須透過 VPN 或是其他方式進入 LAN 的網路。
+整個系統是以 pfsense 為中心分為 WAN 與 LAN。WAN 就是計中管理的 `140.124.182.0/24` 14樓網段；為了資安考量，許多管理界面(Portal) 只對 LAN 的網段 (`172.30.0.0/24`) 開放，因此管理者必須透過 VPN 或是其他方式進入 LAN 的網路。
 
 以下有兩種方式：安裝 OpenVPN 或是連接實驗室的 Wifi (Netlab-Internal)
 
@@ -22,8 +22,7 @@ OpenVPN 的好處：在任何地方都可以連入 LAN，用起來對使用者�
 
     ![](/img/connecting-to-lan/fig2.png)
 
-<!-- TODO: -->
-3. 輸入帳號密碼，帳號密碼和登入 pfSense 管理界面一樣，請見[各種帳密]()
+3. 輸入帳號密碼，帳號密碼和登入 pfSense 管理界面一樣，請見[各種帳密-系統管理者專區](https://github.com/NTUT-Netlab/confidential/blob/main/passwd.md#%E7%B3%BB%E7%B5%B1%E7%AE%A1%E7%90%86%E8%80%85%E5%B0%88%E5%8D%80)
 
 4. 等待連線建立，完成後視窗自動消失
 
@@ -34,7 +33,7 @@ OpenVPN 的好處：在任何地方都可以連入 LAN，用起來對使用者�
 ## 使用 Netlab 的 Wifi Netlab-Internal
 
 1. 找到 SSID 為 `Netlab-Internal` 的 Wifi
-2. 密碼請見[各種帳密]() <!-- TODO: -->
+2. 密碼請見[各種帳密-系統管理者專區](https://github.com/NTUT-Netlab/confidential/blob/main/passwd.md#%E7%B3%BB%E7%B5%B1%E7%AE%A1%E7%90%86%E8%80%85%E5%B0%88%E5%8D%80)
 3. 我讓這個 Wifi 不能連到 Internet，免得有人拿來上網，讓流量爆掉害IP被阻擋，導致外面的人看不到實驗室網頁 (要用 Wifi 上網請用另一個 Wifi `netlab` 或是學校 AP `NTUT-802.1x`)
 
 ## More details if you wanna dive deep
