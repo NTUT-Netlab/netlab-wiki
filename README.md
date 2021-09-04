@@ -49,9 +49,13 @@
 ## 系統網路
 
 Work in progress
-- pfsense
+
+- 網路管理
   - [連接進入 Netlab 系統 LAN](https://github.com/NTUT-Netlab/netlab-wiki/blob/main/systems/connecting-to-lan.md)
   - [實驗室網路架構](https://github.com/NTUT-Netlab/netlab-wiki/blob/main/systems/network-structure.md)
+  - [Cisco 2950 交換器設定](https://github.com/NTUT-Netlab/netlab-wiki/blob/main/systems/cisco-2950-config.md)
+
+- pfsense
   - [Netlab 網頁 TLS 憑證更新](https://github.com/NTUT-Netlab/netlab-wiki/blob/main/systems/renew-ca.md)
 
 ## 實驗室網頁開發
