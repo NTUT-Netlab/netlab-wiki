@@ -14,22 +14,27 @@
 掃完檔案匯出現在桌面，遠端桌面可以直接`ctrl + c` 然後再 `ctrl + v` 到自己的電腦。
 
 1. 開遠端：
+
 ![](https://i.imgur.com/DpP82g4.png)
 
 2. IP Address `140.124.182.184`
 密碼 `netlab1423`
+
 ![](https://i.imgur.com/knlHVJC.png)
 
 3. **EPSON Scan**
+
 ![](https://i.imgur.com/JFuOoOF.png)
 
 ## 學校有免費 Office 2019
 想不到吧～～
 
 1. 進校園入口網站 > 資訊服務 > 校園授權軟體
+
 ![](https://i.imgur.com/iqiWmSl.png)
 
 2. 依照 KMS 啟用說明操作，每180天要做一次，建議將 bat 檔留著
+
 https://kms.ntut.edu.tw/ca/manual/kms_office
 
 ## 使用印表機
