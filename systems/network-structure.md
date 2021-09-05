@@ -35,10 +35,10 @@ pfsense 有兩個 WAN 的 IP。一個是 `140.124.182.213`，這個 IP 可以透
 | 172.30.0.11             | [**VM**] 實驗室Web Server (Active)  | 實驗室網站的 Nginx Server，外部透過 pfsense 的 HAProxy 存取，這台是 Active，除非這台掛掉流量才會導向到下面的 Standby                                             |
 | 172.30.0.12             | [**VM**] 實驗室Web Server (Standby) | 實驗室網站的 Nginx Server，外部透過 pfsense 的 HAProxy 存取，這台是 Standby 做備援，除非Active掛掉流量才會導向到這台 Standby                                     |
 | 172.30.0.30~172.30.0.90 | DHCP 區間                           | 在 LAN 任何設備如果沒有設定固定IP（包含VM），會拿到這個區間的IP。DHCP Server 在 pfSense上，不建議重要的服務主機用 DHCP，為什麼應該不用我說吧                     |
-| 172.30.0.100            | ESXi 管理IP                         | 這是架構圖中的「嚴嚴主機」的ESXi 管理IP，這台ESXi受到 vSphere 的管理，可以直接登入 vSphere 網頁管理整個叢集，而不用透過這個 IP 的ESXi管理界面管理。              |
-| 172.30.0.101            | ESXi 管理IP                         | 這是架構圖中的「軟體路由器」的ESXi 管理IP，這台ESXi受到 vSphere 的管理，可以直接登入 vSphere 網頁管理整個叢集，而不用透過這個 IP 的ESXi管理界面管理。            |
-| 172.30.0.102            | ESXi 管理IP                         | 這是架構圖中的「AI學習機」的ESXi 管理IP，這台ESXi受到 vSphere 的管理，可以直接登入 vSphere 網頁管理整個叢集，而不用透過這個 IP 的ESXi管理界面管理。              |
-| 172.30.0.110            | [**VM**] vSphere                    | 這個 VM 是一個 VMWare 的 ESXi 叢集管理系統，可以管理多台裝有 ESXi Hypervisor 的伺服器，登入這個 IP 的網頁就可以管理所有架構中所有主機上的 VM                     |
+| 172.30.0.100            | ESXi 管理IP                         | 這是架構圖中的「嚴嚴主機」的ESXi 管理IP，這台ESXi受到 vCenter 的管理，可以直接登入 vCenter 網頁管理整個叢集，而不用透過這個 IP 的ESXi管理界面管理。              |
+| 172.30.0.101            | ESXi 管理IP                         | 這是架構圖中的「軟體路由器」的ESXi 管理IP，這台ESXi受到 vCenter 的管理，可以直接登入 vCenter 網頁管理整個叢集，而不用透過這個 IP 的ESXi管理界面管理。            |
+| 172.30.0.102            | ESXi 管理IP                         | 這是架構圖中的「AI學習機」的ESXi 管理IP，這台ESXi受到 vCenter 的管理，可以直接登入 vCenter 網頁管理整個叢集，而不用透過這個 IP 的ESXi管理界面管理。              |
+| 172.30.0.110            | [**VM**] vCenter                    | 這個 VM 是一個 VMWare 的 ESXi 叢集管理系統，可以管理多台裝有 ESXi Hypervisor 的伺服器，登入這個 IP 的網頁就可以管理所有架構中所有主機上的 VM                     |
 | 172.30.254              | Cisco 2950 Switch 管理 IP           | Layer 2 的 Switch 有 IP?? 別誤會，這只是讓你遠端登入 Switch 做設定的管理IP                                                                                       |
 
 ## WAN 位址對照

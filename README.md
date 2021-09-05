@@ -61,6 +61,9 @@ Work in progress
 - pfsense
   - [Netlab 網頁 TLS 憑證更新](https://github.com/NTUT-Netlab/netlab-wiki/blob/main/systems/renew-ca.md)
 
+- 系統管理(VMWare)
+  - [VMWare vSphere (ESXi 與 vCenter) 管理](https://github.com/NTUT-Netlab/netlab-wiki/blob/main/systems/vsphere.md)
+
 ## 實驗室網頁開發
 Work in progress
 
