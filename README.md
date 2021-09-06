@@ -53,6 +53,11 @@ Work in progress
 - 給新進實驗室的人看的文件
   - [Netlab Guides for Newcomers](https://github.com/NTUT-Netlab/netlab-wiki/blob/main/general/guides-4-newcomer.md)
 
+- 日常維運(例行公事)
+  - [面對總務處停電的因應措施](https://github.com/NTUT-Netlab/netlab-wiki/blob/main/general/blackout.md)
+  - [Netlab 網頁 TLS 憑證更新](https://github.com/NTUT-Netlab/netlab-wiki/blob/main/systems/renew-ca.md) (90天一次)
+  - 更換過期乖乖
+
 - 網路管理
   - [連接進入 Netlab 系統 LAN](https://github.com/NTUT-Netlab/netlab-wiki/blob/main/systems/connecting-to-lan.md)
   - [實驗室網路架構](https://github.com/NTUT-Netlab/netlab-wiki/blob/main/systems/network-structure.md)
