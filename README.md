@@ -54,7 +54,7 @@ Work in progress
   - [Netlab Guides for Newcomers](https://github.com/NTUT-Netlab/netlab-wiki/blob/main/general/guides-4-newcomer.md)
 
 - 日常維運(例行公事)
-  - [面對總務處停電的因應措施](https://github.com/NTUT-Netlab/netlab-wiki/blob/main/general/blackout.md)
+  - [面對總務處停電的因應措施](https://github.com/NTUT-Netlab/netlab-wiki/blob/main/systems/blackout.md)
   - [Netlab 網頁 TLS 憑證更新](https://github.com/NTUT-Netlab/netlab-wiki/blob/main/systems/renew-ca.md) (90天一次)
   - 更換過期乖乖
 
