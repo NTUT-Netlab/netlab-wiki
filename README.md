@@ -51,28 +51,29 @@
 Work in progress
 
 - 給新進實驗室的人看的文件
-  - [Netlab Guides for Newcomers](https://github.com/NTUT-Netlab/netlab-wiki/blob/main/general/guides-4-newcomer.md)
+  - [Netlab Guides for Newcomers](general/guides-4-newcomer.md)
 
 - 日常維運(例行公事)
-  - [面對總務處停電的因應措施](https://github.com/NTUT-Netlab/netlab-wiki/blob/main/systems/blackout.md)
-  - [Netlab 網頁 TLS 憑證更新](https://github.com/NTUT-Netlab/netlab-wiki/blob/main/systems/renew-ca.md) (90天一次)
+  - [面對總務處停電的因應措施](systems/blackout.md)
+  - [Netlab 網頁 TLS 憑證更新](systems/renew-ca.md) (90天一次)
   - 更換過期乖乖
 
 - 網路管理
-  - [連接進入 Netlab 系統 LAN](https://github.com/NTUT-Netlab/netlab-wiki/blob/main/systems/connecting-to-lan.md)
-  - [實驗室網路架構](https://github.com/NTUT-Netlab/netlab-wiki/blob/main/systems/network-structure.md)
-  - [Cisco 2950 交換器設定](https://github.com/NTUT-Netlab/netlab-wiki/blob/main/systems/cisco-2950-config.md)
+  - [連接進入 Netlab 系統 LAN](systems/connecting-to-lan.md)
+  - [實驗室網路架構](systems/network-structure.md)
+  - [Cisco 2950 交換器設定](systems/cisco-2950-config.md)
 
 - pfsense
-  - [Netlab 網頁 TLS 憑證更新](https://github.com/NTUT-Netlab/netlab-wiki/blob/main/systems/renew-ca.md)
+  - [Netlab 網頁 TLS 憑證更新](systems/renew-ca.md)
 
 - 系統管理(VMWare)
-  - [VMWare vSphere (ESXi 與 vCenter) 管理](https://github.com/NTUT-Netlab/netlab-wiki/blob/main/systems/vsphere.md)
+  - [VMWare vSphere (ESXi 與 vCenter) 管理](systems/vsphere.md)
+  - [透過 ESXi 管理界面建立 VM](systems/creating-vm-on-esxi.md)
 
 ## 實驗室網頁開發
 Work in progress
 
-- [Netlab 網站開發文件](https://github.com/NTUT-Netlab/netlab-wiki/blob/main/web/web-dev.md)
+- [Netlab 網站開發文件](web/web-dev.md)
 
 ## 交接
 
