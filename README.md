@@ -46,7 +46,7 @@
 6. Dive deep
    - 我在每個文件後面都會有 Dive deep 區塊，如果想了解更多細節，別害怕就直接 dive deep吧，工程師的價值就是這麼來的
 
-## 系統網路
+## 系統網路 ⚙
 
 Work in progress
 
@@ -70,7 +70,7 @@ Work in progress
   - [VMWare vSphere (ESXi 與 vCenter) 管理](systems/vsphere.md)
   - [透過 ESXi 管理界面建立 VM](systems/creating-vm-on-esxi.md)
 
-## 實驗室網頁開發
+## 實驗室網頁開發 🌏
 Work in progress
 
 - [Netlab 網站開發文件](web/web-dev.md)
