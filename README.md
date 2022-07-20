@@ -24,9 +24,9 @@
 
 ## 前言
 
-關於實驗室的各種系統和網路架構，是我們108這一屆才開始架設的，一方面提高可靠度，另一方面可以練功。
+關於實驗室的各種系統和網路架構，是我們 108 這一屆才開始架設的，一方面提高可靠度，另一方面可以練功。
 
-包含自己架設的 NAS、RAID、Gitlab、ESXi、pfsense軟路由等等，以應付同學檔案共享和存取公用掃描機的需求，以及Lab網頁Hosting的功能。在108年以前，這些東西全部 **集中在一台Win7 Core 2 duo的PC上面**，難以理解過去學長姐怎魔能容忍這樣使用。我有一些在交大、中央的朋友，都聽說他們的實驗室有自己架設的系統，有的甚至連Active Directory和DNS都有，總不能承認北科比較遜吧？不行，所以捲起袖子來做嘛!
+包含自己架設的 NAS、RAID、Gitlab、ESXi、pfsense 軟路由等等，以應付同學檔案共享和存取公用掃描機的需求，以及 Lab 網頁 Hosting 的功能。在 108 年以前，這些東西全部 **集中在一台 Win7 Core 2 duo 的 PC 上面**，難以理解過去學長姐怎魔能容忍這樣使用。我有一些在交大、中央的朋友，都聽說他們的實驗室有自己架設的系統，有的甚至連 Active Directory 和 DNS 都有，總不能承認北科比較遜吧？不行，所以捲起袖子來做嘛!
 
 為了讓未來接手管理的學弟妹可以上手維護這些東西，特此寫了這個 Wiki。當然 Netlab Wiki 不限於紀錄技術面的文件，也可以紀錄在學校要注意的事情 (例如口試和論文繳交流程、畢業離校流程，有些地方學校沒寫清楚)。希望學長偶爾來看看 Netlab Wiki 時可以發現學弟妹的 Contribution，改錯字也好，或是有地方寫錯了，或是你覺得有更好的架構要套用，都非常歡迎～
 
@@ -38,15 +38,15 @@
    - #2) Think before you type.
    - #3) With great power comes great responsibility.
 3. Be stronger than your strongest excuse.
-   - 有時可能會覺得：我學這麼多東西幹麻...之類的，別讓找藉口的力氣，勝過學習的動力
+   - 有時可能會覺得：我學這麼多東西幹麻...之類的，別讓找藉口的力氣，勝過學習的動力。
 4. 你一定要會 Linux 的常用指令
    - 在 Wiki 裡面的指令都是以 Linux 為主，你可以在 Windows 開 WSL 練習，然後我使用的 Ubuntu 都是 headless server，沒有 GUI，請學會敲指令。
 5. Have backbone, disagree and commit.
-   - 若有錯誤或是不足的地方，請動手改善
+   - 若有錯誤或是不足的地方，請動手改善。
 6. Dive deep
-   - 我在每個文件後面都會有 Dive deep 區塊，如果想了解更多細節，別害怕就直接 dive deep吧，工程師的價值就是這麼來的
+   - 我在每個文件後面都會有 Dive deep 區塊，如果想了解更多細節，別害怕就直接 dive deep 吧，工程師的價值就是這麼來的。
 
-## 系統網路 ⚙
+## 系統網路
 
 Work in progress
 
@@ -56,7 +56,7 @@ Work in progress
 - 日常維運(例行公事)
   - [面對總務處停電的因應措施](systems/blackout.md)
   - [Netlab 網頁 TLS 憑證更新](systems/renew-ca.md) (90天一次)
-  - 更換過期乖乖
+  - 更換快過期的綠色乖乖
 
 - 網路管理
   - [連接進入 Netlab 系統 LAN](systems/connecting-to-lan.md)
@@ -70,7 +70,7 @@ Work in progress
   - [VMWare vSphere (ESXi 與 vCenter) 管理](systems/vsphere.md)
   - [透過 ESXi 管理界面建立 VM](systems/creating-vm-on-esxi.md)
 
-## 實驗室網頁開發 🌏
+## 實驗室網頁開發
 Work in progress
 
 - [Netlab 網站開發文件](web/web-dev.md)
