@@ -1,55 +1,53 @@
 # Welcome 2 Netlab 🎉
-###### By 嚴嚴
 
-## NAS 掛載步驟
-我們都在這裡分享檔案哦~ ~~累積了過往所有學長姐的業障~~
-課本、考古題等等可以在這邊找找
-1. 首先請[依照這篇文章](https://itorz324.blogspot.com/2020/02/win10-cannot-see-network-neighborhood.html)設定，不然連不上
-2. 檔案總管 > 本機 > 連線網路磁碟機 > 資料夾輸入 `\\140.124.182.184\netlab`
-帳：`netlab`
-密：`Netlab1423`
+恭喜你成為北科資工網路實驗室的一份子，記得先搞好相關的設定，保證你在網路實驗室的研究順利。
 
-## 使用掃描機
-掃描機目前連在一台 Win7 ，須遠端進入使用
-掃完檔案匯出現在桌面，遠端桌面可以直接`ctrl + c` 然後再 `ctrl + v` 到自己的電腦。
++ [掛載NAS](#nas-掛載步驟)
++ [掃描機使用方式](#掃描機使用方式)
++ [新增印表機](#新增印表機)
++ [學校有提供的授權軟體](#學校提供的授權軟體)
 
-1. 開遠端：
+# NAS 掛載步驟
 
-![](https://i.imgur.com/DpP82g4.png)
+實驗室有一台專屬於網路實驗室的Nas，~~累積了過往所有學長姐的業障~~，歡迎在裡面尋寶XD。
 
-2. IP Address `140.124.182.184`
-使用者名稱 `netlab`
-密碼 `netlab1423`
+1.  請先[依照這篇文章](https://itorz324.blogspot.com/2020/02/win10-cannot-see-network-neighborhood.html)設定，不然會沒辦法連接。
 
-![](https://i.imgur.com/knlHVJC.png)
+2.  開啟`本機`後，點`連線網路磁碟機`。<br>![](/img/guides-4-newcomer/NAS-1.png)  
 
-3. **EPSON Scan**
+3.  輸入`資料夾位置`，如圖所示，下面的`登入時重新連線`建議不要勾，接著按`完成`。<br>不勾的原因是如果NAS主機哪天陣亡或沒開，當你使用到檔案總管時，你的電腦會廣播不到這顆網路硬碟，檔案總管會卡住。<br>~~我就被卡過，他媽的還是在寫論文的時候。~~<br>![](/img/guides-4-newcomer/NAS-2.png)  
 
-![](https://i.imgur.com/JFuOoOF.png)
+4.  輸入`使用者名稱`與`密碼`，`使用者名稱`與`密碼`請去問實驗室的總管或網管。`記住我的認證`可以勾起來，下次就不用輸入了。接著按`確定`。<br>若接著出現`無法驗證遠端電腦的識別身份`，直接點`是`就可以了。<br>![](/img/guides-4-newcomer/NAS-3.png)
 
-## 學校有免費 Office 2019
-想不到吧～～
-
-1. 進校園入口網站 > 資訊服務 > 校園授權軟體
-
-![](https://i.imgur.com/iqiWmSl.png)
-
-2. 依照 KMS 啟用說明操作，每180天要做一次，建議將 bat 檔留著
-
-https://kms.ntut.edu.tw/ca/manual/kms_office
-
-## 使用印表機
-![](/img/guides-4-newcomer/fig1.png))
-
-第7步 IP 位置和連接埠名稱請使用 **`140.124.182.161`** (我們研究室的印表機IP)
+5.  就可以開始尋找學長姐留下的一個大密寶啦！
 
 
-接著選擇驅動之後就可以使用了。
+# 掃描機使用方式
+實驗室有一台掃描機，放在前面的主機上，要把東西掃描成電子檔就可以用。
 
-## 關關難過但關關不說之 有進POSD 過關斬助教
-聽說有進很喜歡 Java，但以前開課都是用 C++，所以只有 C++ 範例給你們參考
+1.  按`win+r`，輸入`mstsc.exe`，點`確定`。<br>![](/img/guides-4-newcomer/Scanner-1.png)<br>或是搜尋`遠端桌面連線`，開啟Windows 10內建的遠端程式。
+<br>![](/img/guides-4-newcomer/Scanner-1_1.png)
 
-1. [POSD 2019 期中與作業參考答案](https://github.com/LYTzeng/posd-2019-hw-solution)
-2. [去年的作業題目參考](https://github.com/LYTzeng/POSD2019f_Assignment)
-3. [課本](http://93.174.95.29/main/24000/9ab854c153847ba62e93f0b1ed8f1cb9/%28Professional%20Computing%29%20Erich%20Gamma%2C%20Richard%20Helm%2C%20Ralph%20Johnson%2C%20John%20M.%20Vlissides%20-%20Design%20Patterns%20CD.%20Elements%20of%20reusable%20object-oriented%20software-Addison-Wesley%20Professional%20%281998%29.rar)但很抱歉考試一定要帶實體書
-4. [SOLID](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod)
+2.  輸入掃描機的ip，如圖所示，點`連線`。<br>![](/img/guides-4-newcomer/Scanner-2.png)
+
+3.   輸入`使用者名稱`與`密碼`，`使用者名稱`與`密碼`請去問實驗室的總管或網管。<br>![](/img/guides-4-newcomer/Scanner-3.png)
+
+4.  至於怎麼掃描就自己研究或去問學長姐吧。記得文件掃描完，要把文件從掃描機拿出來，檔案複製完，記得把檔案永久刪掉。
+
+
+# 新增印表機
+
+實驗室有兩臺印表機可以用，可是兩臺都是黑白的QQ。
+
+1.  `開始`>`設定`>`裝置`>`印表機與掃描機`，點`新增印表機或掃描器`。<br>![](/img/guides-4-newcomer/Printer-1.png)
+2.  讓他轉一下，轉完拉到下面，點`我想要的印表機未列出`。<br>不從這邊找我們實驗室的印表機，主要是因為這邊會找到北科所有的網路印表機，基於安全考量，因此沒去改我們實驗室的那兩台印表機的名稱。~~全北科的印表機都列在這裡了，知道要怎麼惡作劇了吧。~~<br>![](/img/guides-4-newcomer/Printer-2.png)
+3.  選第三個`使用IP位址或主機名稱新增印表機`，按`下一步`。<br>![](/img/guides-4-newcomer/Printer-3.png)
+4.  選`IPP裝置`，輸入`主機名稱或IP地址`就可以了，至於印表機的IP，請去問實驗室的總管或網管。<br>![](/img/guides-4-newcomer/Printer-4.png)
+
+5.  接著他讓跑一下，就能使用囉。可以按一下`列印測試頁`。測試一下是不是真的可以印出東西。<br>![](/img/guides-4-newcomer/Printer-5.png)
+
+# 學校提供的授權軟體
+像是office、windows之類的，免費的喔，想不到吧～～
+僅限北科的學生。
+
+[網站在這](https://csw.ntut.edu.tw/)
