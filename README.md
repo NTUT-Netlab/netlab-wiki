@@ -6,7 +6,7 @@
 </h1>
 
 <p align="center">
-    2021年開始紀錄關於 Netlab 的各種文件，特別是實驗室的相關文件等。<br>請實驗室的大家一起協助精進這份 Wiki 並持續傳承給下一屆。
+    2021年開始紀錄關於 Netlab 的各種文件，特別是實驗室的相關文件等。<br>請實驗室的大家一起協助這份 Wiki的維護並持續傳承給下一屆。
 </p>
 
 <p align="center">
@@ -61,7 +61,7 @@
 
 - 給新生看的文件
   - [Netlab Guides for Newcomers](general/guides-4-newcomer.md)
-- 給要畢業生看的文件(TBA)
+- 給要畢業生看的文件
   - [Netlab Guides for Graduates](general/guides-4-graduates.md)
 
 # 其他注意事項
