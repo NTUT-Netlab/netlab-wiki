@@ -5,9 +5,6 @@
   <br>
 </h1>
 
-<!-- | 2022/08/06 更新：由於現實面的各種限制以及實驗室的人數減少，已經沒有成本維護這個架構，因此完全棄用 (除了 [實驗室網頁開發](https://github.com/NTUT-Netlab/netlab-wiki/blob/main/web/web-dev.md) ，這個還有在使用)。非常感謝大家這兩年的幫忙，這份文件會保留作為紀念，而且放 Github 上又不用錢 |
-| --- | -->
-
 <p align="center">
     2021年開始紀錄關於 Netlab 的各種文件，特別是實驗室的相關文件等。<br>請實驗室的大家一起協助精進這份 Wiki 並持續傳承給下一屆。
 </p>
@@ -15,8 +12,7 @@
 <p align="center">
   <a href="#前言">前言</a> •
   <a href="#歷史">歷史</a> •
-  <a href="#原則">原則</a> •
-  <a href="#實驗室網頁開發">實驗室網頁開發</a> •
+  <a href="#實驗室規則">實驗室規則</a> •
   <a href="#其他注意事項">其他注意事項</a> •
   <a href="#現任總管與網管">現任總管與網管</a>•
   <a href="#歷任總管與網管">歷任總管與網管</a>•
@@ -35,16 +31,17 @@
 
 
 
-# 原則
-原則很簡單，就1個。
+# 實驗室守則
+沒啥規定，只有1001個。若覺得有什麼也是很重要的，也可以再加上去。
 
 1. 每呼吸60秒，你就會減少1分鐘的壽命。
 2. 在美國就連小學生都會說流利的英語。
 3. 對於今天解決不了的事情，不要著急，因為明天也解決不了。
-4. 當你眼睛閉上時 你就會看不到。
+4. 當你眼睛閉上時，你就會看不到。
 5. 頂樓風景很美，風也很大。
 6. 如果你越久不洗澡，你就會越南文。
-7. 若要更改系統的架構或是配置，首要考慮的是後續維護的上手難易度。~~不要覺得別人什麼都會或什麼都要會~~。
+7. 實驗，開會，寫論文。
+8. 吳大很Nice，有問題都可以跟老師討論。
 
 <!-- 1. 任何看似多餘的設定，其實都是必要的，平常請勿更改明明運行正常的設定，Unless you know what you're doing.
 2. 作為 Admin 的責任，就是 Linux 裡面第一次輸入`sudo`時的提示訊息：
@@ -66,12 +63,6 @@
   - [Netlab Guides for Newcomers](general/guides-4-newcomer.md)
 - 給要畢業生看的文件(TBA)
   - [Netlab Guides for Graduates](general/guides-4-graduates.md)
-- 日常維運(例行公事)
-  - [面對總務處停電的因應措施](systems/blackout.md)
-
-# 實驗室網頁開發
-
-- [Netlab 網站開發文件](web/web-dev.md)
 
 # 其他注意事項
 
@@ -80,8 +71,8 @@
 # 現任總管與網管
 
 ## 110
-| [<img src="https://avatars.githubusercontent.com/u/100108074?s=64&v=4" width="100px;"/><br /><sub><b>Nelsonsider </b></sub>](https://github.com/Nelsonsider)<br />總管 | [<img src="https://avatars.githubusercontent.com/u/49807262?v=4" width="100px;"/><br /><sub><b>Wendy </b></sub>](https://github.com/WendyUsingGithub)<br />網管 ||
-| :---: | :---: | :---: | 
+| [<img src="https://avatars.githubusercontent.com/u/100108074?s=64&v=4" width="100px;"/><br /><sub><b>Nelsonsider </b></sub>](https://github.com/Nelsonsider)<br />總管 | [<img src="https://avatars.githubusercontent.com/u/49807262?v=4" width="100px;"/><br /><sub><b>Wendy </b></sub>](https://github.com/WendyUsingGithub)<br />網管 |
+| :---: | :---: |
 
 # 歷任總管與網管
 
