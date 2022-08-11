@@ -16,8 +16,29 @@
 # 設定網路
 
 一切的起點就在這裡，設定網路，沒有設定網路，你什麼事都做不了。
+學校沒有DHCP，只有靜態IP，所以需要自己設定網路的`IP`、`mask`與`gateway`。
 
+0.  插上網路線。
 
+1.  按`Win+R` > 輸入`cmd`。
+<br>![](/img/guides-4-newcomer/SetNetwork-11.png) 
+
+2.  輸入`ipconfig -all`，把`乙太網路卡`的`實體位置`與`學號`給總管，總管才能幫你設定IP。若有多個`乙太網路卡`，則找插上網路線的那個網路卡的`實體位置`。
+<br>![](/img/guides-4-newcomer/SetNetwork-12.png)
+
+3.  時間旁邊的`地球`點`右鍵`>`開啟網路和網際網路設定`>進階網路設定中的`變更介面卡選項`。
+<br>![](/img/guides-4-newcomer/SetNetwork-1.png) 
+
+4.  對`乙太網路`點`右鍵`>`內容`。若有多個網路孔，應該會有`乙太網路2`、`乙太網路3`...，選你插上網路線的那一個。
+<br>![](/img/guides-4-newcomer/SetNetwork-2.png) 
+
+5.  找到`網際網路通訊協定第 4 版(TCP/IPv4)`，點`內容`。
+<br>![](/img/guides-4-newcomer/SetNetwork-3.png)
+
+6.  選`使用下列的IP位址`，`IP位址`總管會給你，遮罩是`255.255.255.0`，閘道是`140.124.182.254`，慣用的DNS則是`140.124.13.1`。點`確定`。再點`確定`。
+<br>![](/img/guides-4-newcomer/SetNetwork-4.png)
+
+7.  若沒有輸入錯誤，應該就有網路了。
 
 
 
