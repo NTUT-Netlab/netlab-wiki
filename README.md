@@ -61,7 +61,7 @@
 
 - 給新生看的文件
   - [Netlab Guides for Newcomers](general/guides-4-newcomer.md)
-- 給要畢業生看的文件
+- 給畢業生看的文件
   - [Netlab Guides for Graduates](general/guides-4-graduates.md)
 
 # 其他注意事項
