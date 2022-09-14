@@ -52,8 +52,8 @@ ___
 2.  `資料夾位置`輸入NAS的路徑  \\140.124.182.165\netlab-1423，下面的`登入時重新連線`建議不要勾，接著按`完成`。<br>不勾的原因是如果NAS主機某天陣亡或沒開，當你使用到檔案總管的功能時，你的電腦會廣播不到這顆網路硬碟，檔案總管會卡住。<br>~~我就被卡過，他媽的還是在寫論文的時候。~~<br>![](/img/guides-4-newcomer/NAS-2.png)
 
 3.  輸入`使用者名稱`與`密碼`。
-    使用者名稱:netlab
-    密碼：netlab1423
+    ＋使用者名稱:netlab
+    ＋密碼：netlab1423
 `記住我的認證`可以勾起來，下次就不用輸入了。接著按`確定`。<br>若接著出現`無法驗證遠端電腦的識別身份`，直接點`是`就可以了。<br>![](/img/guides-4-newcomer/NAS-3.png)
 <br>若無法連接，可以[參考這篇文章](https://itorz324.blogspot.com/2020/02/win10-cannot-see-network-neighborhood.html)。
 
@@ -70,8 +70,8 @@ ___
 2.  輸入掃描機的 IP address 140.124.182.164，點`連線`。<br>![](/img/guides-4-newcomer/Scanner-2.png)
 
 3.  輸入`使用者名稱`與`密碼`。
-    使用者名稱：netlab
-    密碼：netlab1423
+    ＋使用者名稱：netlab
+    ＋密碼：netlab1423
 <br>![](/img/guides-4-newcomer/Scanner-3.png)
 
 4.  至於怎麼掃描就自己研究或去問學長姐吧。記得文件掃描完，要把文件從掃描機拿出來，檔案複製完，記得把檔案永久刪掉。
