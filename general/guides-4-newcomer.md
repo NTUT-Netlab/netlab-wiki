@@ -70,8 +70,8 @@ ___
 2.  輸入掃描機的 IP address 140.124.182.164，點`連線`。<br>![](/img/guides-4-newcomer/Scanner-2.png)
 
 3.  輸入`使用者名稱`與`密碼`。
-    使用者名稱：netlab
-    密碼：netlab1423
+     ### 使用者名稱：netlab
+     ### 密碼：netlab1423
 <br>![](/img/guides-4-newcomer/Scanner-3.png)
 
 4.  至於怎麼掃描就自己研究或去問學長姐吧。記得文件掃描完，要把文件從掃描機拿出來，檔案複製完，記得把檔案永久刪掉。
