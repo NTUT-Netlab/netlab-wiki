@@ -70,12 +70,15 @@
 吳大的生日在8/2，基本上會落在口試完的隔週，如果有時間，或許可以幫老師慶生一下，順便可以拍張合照。
 
 # 現任總管與網管
+## 111
+| [<img src="https://avatars.githubusercontent.com/u/86019479?v=4" width="100px;"/><br /><sub><b>Nelsonsider </b></sub>](https://github.com/wChiis)<br />總管 網管 | 
+| :---: | :---: |
 
+
+# 歷任總管與網管
 ## 110
 | [<img src="https://avatars.githubusercontent.com/u/100108074?s=64&v=4" width="100px;"/><br /><sub><b>Nelsonsider </b></sub>](https://github.com/Nelsonsider)<br />總管 | [<img src="https://avatars.githubusercontent.com/u/49807262?v=4" width="100px;"/><br /><sub><b>Wendy </b></sub>](https://github.com/WendyUsingGithub)<br />網管 |
 | :---: | :---: |
-
-# 歷任總管與網管
 
 ## 109
 | [<img src="https://avatars.githubusercontent.com/u/37090553?v=4" width="100px;"/><br /><sub><b>darknesshine </b></sub>](https://github.com/darknesshine)<br />總管 | [<img src="https://avatars.githubusercontent.com/u/25026452?v=4" width="100px;"/><br /><sub><b>jim25522532</b></sub>](https://github.com/jim25522532)<br />網管 | [<img src="https://avatars.githubusercontent.com/u/11294412?v=4" width="100px;"/><br /><sub><b>Simon</b></sub>](https://github.com/hellen6654)<br />網管 |
