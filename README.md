@@ -71,8 +71,8 @@
 
 # 現任總管與網管
 ## 111
-| [<img src="https://avatars.githubusercontent.com/u/86019479?v=4" width="100px;"/><br /><sub><b>Nelsonsider </b></sub>](https://github.com/wChiis)<br />總管 網管 | 
-| :---: | :---: |
+| [<img src="https://avatars.githubusercontent.com/u/86019479?v=4" width="100px;"/><br /><sub><b>wChiis </b></sub>](https://github.com/wChiis)<br />總管 網管 | 
+| :---: |
 
 
 # 歷任總管與網管
