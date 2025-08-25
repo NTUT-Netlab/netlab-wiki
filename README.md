@@ -72,9 +72,8 @@
 
 # 現任總管與網管
 ## 113
-| [<img src="https://avatars.githubusercontent.com/u/66701496?v=4" width="100px;"/><br /><sub><b>NTUT-Leo</b></sub>](https://github.com/NTUT-Leo)<br />總管 網管 | 
-| :---: |
-
+| [<img src="https://avatars.githubusercontent.com/u/66701496?v=4" width="100px;"/><br /><sub><b>NTUT-Leo</b></sub>](https://github.com/NTUT-Leo)<br />總管 | [<img src="https://avatars.githubusercontent.com/u/112480670?v=4" width="100px;"/><br /><sub><b>yokito0305</b></sub>](https://github.com/yokito0305)<br />網管 |
+| :---: | :---: |
 
 # 歷任總管與網管
 ## 112
