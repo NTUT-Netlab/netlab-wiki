@@ -28,7 +28,7 @@
 * 以前（～108），許多東西都集中在一台 **Win7 Core 2 duo** 的 PC 上面，難以理解過去學長姐怎麼能忍受得了= ="。
 * 起初（108），架構包含了NAS、Gitlab、ESXi、pfsense 軟路由等等，用來應付同學檔案共享和存取公用掃描機的需求，以及 Lab 網頁 Hosting 的功能。
 * 後來（109），系上DNS Server權限被計中收回，實驗室網站佈署至GitHub上，且部份設備使用年限已至，需要報廢了，因此稍微更動了架構，只剩下NAS與掃描機。
-* 近期（113），經過學長的努力，將實驗室Server從102年老舊主機，無痛移植到109年主機，並且更新了NAS版本。系統架構維持原狀。
+* 近期（113），經過學長的努力，將實驗室Server從102年老舊主機，無痛移植到109年主機，並更新了NAS版本。系統架構則維持原狀。
 
 # 實驗室守則
 
@@ -72,7 +72,7 @@
 
 # 現任總管與網管
 ## 113
-| [<img src="https://avatars.githubusercontent.com/u/66701496?v=4" width="100px;"/><br /><sub><b>NTUT-Leo</b></sub>](https://github.com/NTUT-Leo)<br />總管 | [<img src="https://avatars.githubusercontent.com/u/112480670?v=4" width="100px;"/><br /><sub><b>yokito0305</b></sub>](https://github.com/yokito0305)<br />網管 |
+| [<img src="https://avatars.githubusercontent.com/u/66701496?v=4" width="100px;"/><br /><sub><b>NTUT-Leo</b></sub>](https://github.com/NTUT-Leo)<br />總管 網管 | [<img src="https://avatars.githubusercontent.com/u/112480670?v=4" width="100px;"/><br /><sub><b>yokito0305</b></sub>](https://github.com/yokito0305)<br />網管 |
 | :---: | :---: |
 
 # 歷任總管與網管
