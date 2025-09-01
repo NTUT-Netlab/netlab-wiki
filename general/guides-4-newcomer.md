@@ -205,9 +205,8 @@ ___
 | AP上的標籤編號 | SSID | Password | IP |
 |:----------:|:----------:|:----------:|:----------:|
 | 1 | Netlab / Netlab_5G | netlab1423 | 140.124.182.171
-| 2 | Lab1427 / Lab1427_5G | netlab1423 | 140.124.182.172
-| 3 | dontwoof | monk55688 | 140.124.182.173
+| 2 | NTUT-Netlab / NTUT-Netlab_5G | netlab1423 | 140.124.182.172
 
 以上架設於 2024 年
 
-##### Start from 2021, Last update 2025.08.05
+##### Start from 2021, Last update 2025.09.01
