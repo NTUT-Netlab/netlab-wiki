@@ -81,13 +81,47 @@ ___
 
 實驗室有兩臺印表機可以用，可是兩臺都只能列印黑白文件QQ。
 
-1.  `開始`>`設定`>`裝置`>`印表機與掃描機`，點`新增印表機或掃描器`。<br>![](/img/guides-4-newcomer/Printer-1.png)
-2.  讓他轉一下，轉完拉到下面，點`我想要的印表機未列出`。不從這邊找我們實驗室的印表機，主要是因為這邊會找到北科所有的網路印表機，基於安全考量，因此我們沒改實驗室的那兩台印表機名稱。~~全北科的印表機都列在這裡了。~~<br>![](/img/guides-4-newcomer/Printer-2.png)
-3.  選第三個`使用IP位址或主機名稱新增印表機`，按`下一步`。<br>![](/img/guides-4-newcomer/Printer-3.png)
-4.  選`IPP裝置`，輸入`主機名稱或IP地址`就可以了。<br>![](/img/guides-4-newcomer/Printer-4.png)
-    + M608 IP：140.124.182.161
-    + M601 IP：140.124.182.162
-5.  接著他讓跑一下，就能使用囉。可以按一下`列印測試頁`。測試一下是不是真的可以印出東西。<br>![](/img/guides-4-newcomer/Printer-5.png)
+1.  `開始`>`設定`>`藍牙與裝置`>`印表機與掃描器`，點`新增印表機或掃描器`。<br>![](/img/guides-4-newcomer/Printer-1.png)
+
+2.  讓他轉一下，等待`我想要的印表機未列出`出現，接著點`手動新增裝置`。不從這邊找我們實驗室的印表機，主要是因為這邊會找到北科所有的網路印表機，基於安全考量，我們實驗室的兩台印表機架於路由器的區網內，因此不會出現在這裡。~~全北科的印表機都列在這裡了。~~<br>![](/img/guides-4-newcomer/Printer-2.png)
+
+3.  選第三個`使用 IP 位址或主機名稱新增印表機`，按`下一步`。<br>![](/img/guides-4-newcomer/Printer-3.png)
+
+4.  選`TCP/IP 裝置`，輸入`主機名稱或 IP 位址` 和 `連接埠名稱`。勾選`查詢印表機並自動選取要用的驅動程式`，接著按`下一步`。<br>![](/img/guides-4-newcomer/Printer-4.png)
+    + M601
+        + 主機名稱或 IP 位址：140.124.182.172
+        + 連接埠名稱：M601
+    + M608
+        + 主機名稱或 IP 位址：140.124.182.172
+        + 連接埠名稱：M608
+
+5.  接著讓他跑一下。<br>![](/img/guides-4-newcomer/Printer-5.png)
+
+6.  當出現這個畫面時不要緊張，選`自訂`並按`設定`。<br>![](/img/guides-4-newcomer/Printer-6.png)
+
+7.  輸入`連接埠號碼`，以M601為例，完成後按`確定`，接著按`下一步`。<br>![](/img/guides-4-newcomer/Printer-7.png)
+    + 連接埠號碼
+        + M601：601
+        + M608：608
+
+8.  接著讓他跑一下。<br>![](/img/guides-4-newcomer/Printer-8.png)
+
+9.  當出現`安裝印表機驅動程式`畫面時，選擇`製造商` 和 `印表機`。以M601為例，接著按`下一步`。<br>![](/img/guides-4-newcomer/Printer-9.png)
+    + 製造商：HP
+    + 印表機
+        + M601：HP LaserJet Enterprise 600 M601 M602 M603 PCL6 Class Driver
+        + M608：HP LaserJet M607 M608 M609 PCL-6 (V4)
+
+10. 若出現這個畫面，選任意選項皆可，接著按`下一步`。<br>![](/img/guides-4-newcomer/Printer-10.png)
+
+11. 輸入`印表機名稱`，以M601為例，接著按`下一步`。<br>![](/img/guides-4-newcomer/Printer-11.png)
+* 建議更改預設印表機名稱，以後好辨認。例如：
+    + M601：HP LaserJet M601
+    + M608：HP LaserJet M608
+
+12. 選`不共用印表機`，按`下一步`。<br>![](/img/guides-4-newcomer/Printer-12.png)
+
+13.  接著就能使用囉。可以按一下`列印測試頁`。測試是不是真的可以印出東西。<br>![](/img/guides-4-newcomer/Printer-13.png)
 
 ### 注意事項
 
