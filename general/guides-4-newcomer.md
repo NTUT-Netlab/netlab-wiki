@@ -115,7 +115,7 @@ ___
         + M608：HP LaserJet M607 M608 M609 PCL-6 或<br>&emsp;&emsp;&emsp;&nbsp;&nbsp;HP LaserJet M607 M608 M609 PCL-6 (V4)
 
 11. 輸入`印表機名稱`，以M601為例，接著按`下一步`。<br>![](/img/guides-4-newcomer/Printer-11.png)
-* 建議更改預設印表機名稱，以後好辨認。例如：
+* 這裡建議更改預設印表機名稱，以後好辨認。例如：
     + M601：HP LaserJet M601
     + M608：HP LaserJet M608
 
@@ -123,7 +123,7 @@ ___
 
 13. 選`不共用印表機`，按`下一步`。<br>![](/img/guides-4-newcomer/Printer-13.png)
 
-14.  接著就能使用囉。可以按一下`列印測試頁`。測試是不是真的可以印出東西。<br>![](/img/guides-4-newcomer/Printer-14.png)
+14.  接著就能使用囉！可以按一下`列印測試頁`，測試是不是真的可以印出東西。<br>![](/img/guides-4-newcomer/Printer-14.png)
 
 ### 注意事項
 
