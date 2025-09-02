@@ -112,7 +112,7 @@ ___
     + 製造商：HP
     + 印表機
         + M601：HP LaserJet Enterprise 600 M601 M602 M603 PCL6
-        + M608：HP LaserJet M607 M608 M609 PCL-6 (V4)
+        + M608：HP LaserJet M607 M608 M609 PCL-6 或<br>&emsp;&emsp;&emsp;&nbsp;&nbsp;HP LaserJet M607 M608 M609 PCL-6 (V4)
 
 11. 輸入`印表機名稱`，以M601為例，接著按`下一步`。<br>![](/img/guides-4-newcomer/Printer-11.png)
 * 建議更改預設印表機名稱，以後好辨認。例如：
