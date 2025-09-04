@@ -22,21 +22,29 @@ ___
 
 0.  插上網路線。
 
-1.  按`Win+R` > 輸入`cmd`。<br>![](/img/guides-4-newcomer/SetNetwork-1.png) 
+1.  按`Win+R` > 輸入`cmd`。
 
-2.  輸入`ipconfig -all`，把`乙太網路卡`的`實體位置`與`學號`給總管，總管才能幫你設定IP。若有多個`乙太網路卡`，則找有插線的網路卡的`實體位置`，就是找`乙太網路卡`中，有`ipv4位址`是`192.168開頭`的那張網路卡。<br>![](/img/guides-4-newcomer/SetNetwork-2.png)
+    ![](/img/guides-4-newcomer/SetNetwork-1.png) 
 
-3.  時間旁邊的`地球`點`右鍵`>`開啟網路和網際網路設定`>進階網路設定中的`變更介面卡選項`。<br>![](/img/guides-4-newcomer/SetNetwork-3.png) 
+2.  輸入`ipconfig -all`，把`乙太網路卡`的`實體位置`與`學號`給總管，總管才能幫你設定IP。若有多個`乙太網路卡`，則找有插線的網路卡的`實體位置`，就是找`乙太網路卡`中，有`ipv4位址`是`192.168開頭`的那張網路卡。
+    
+    ![](/img/guides-4-newcomer/SetNetwork-2.png)
 
-4.  對`乙太網路`點`右鍵`>`內容`。若有多個網路孔，應該會有`乙太網路2`、`乙太網路3`...，選你插上網路線的那一個，就是有亮的那一個。<br>![](/img/guides-4-newcomer/SetNetwork-4.png) 
+3.  時間旁邊的`地球`點`右鍵`>`開啟網路和網際網路設定`>進階網路設定中的`變更介面卡選項`。
+    
+    ![](/img/guides-4-newcomer/SetNetwork-3.png) 
 
-5.  找到`網際網路通訊協定第 4 版(TCP/IPv4)`，點`內容`。<br>![](/img/guides-4-newcomer/SetNetwork-5.png)
+4.  對`乙太網路`點`右鍵`>`內容`。若有多個網路孔，應該會有`乙太網路2`、`乙太網路3`...，選你插上網路線的那一個，就是有亮的那一個。
+
+    ![](/img/guides-4-newcomer/SetNetwork-4.png) 
+
+5.  找到`網際網路通訊協定第 4 版(TCP/IPv4)`，點`內容`。
+
+    ![](/img/guides-4-newcomer/SetNetwork-5.png)
 
 6.  選`使用下列的IP位址`，`IP位址`總管會給你，遮罩是`255.255.255.0`，閘道是`140.124.182.254`。
-
-    `DNS 設定需要特別注意：`
-    
-    給不想記住實驗室公用設備（如：掃描機、NAS）IP 的使用者：
+    ### `DNS 設定需要特別注意：`
+    給不想記實驗室公用設備（如：掃描機、NAS）IP 的使用者：
 
         慣用 DNS 伺服器：140.124.182.163 -->（實驗室專用 DNS）
         其他 DNS 伺服器：140.124.13.1 ----->（學校 DNS）
@@ -45,8 +53,9 @@ ___
 
         慣用 DNS 伺服器：140.124.13.1 ----->（學校 DNS）
         其他 DNS 伺服器：不填
-
-    最後點`確定`。再點`確定`。<br>![](/img/guides-4-newcomer/SetNetwork-6.png)
+    最後點`確定`。再點`確定`。
+    
+    ![](/img/guides-4-newcomer/SetNetwork-6.png)
 
 7.  若沒有輸入錯誤，應該就有網路了。
 
@@ -55,15 +64,26 @@ ___
 
 實驗室有一台 NAS，~~累積了過往所有學長姐的業障~~，歡迎在裡面尋寶XD。
 
-1.  開啟`本機`後，點`連線網路磁碟機`。<br>![](/img/guides-4-newcomer/NAS-1.png)  
+1.  開啟`本機`後，點`連線網路磁碟機`。
 
-2.  `資料夾位置`輸入NAS的路徑 `\\140.124.182.163\netlab-nas`（或使用實驗室 DNS 的 `\\nas.netlab.net\netlab-nas`），下面的`登入時重新連線`建議不要勾，接著按`完成`。<br>不勾的原因是如果NAS主機某天陣亡或沒開，當你使用到檔案總管的功能時，你的電腦會廣播不到這顆網路硬碟，檔案總管會卡住。<br>~~我就被卡過，他媽的還是在寫論文的時候。~~<br>![](/img/guides-4-newcomer/NAS-2.png)
+    ![](/img/guides-4-newcomer/NAS-1.png)  
+
+2.  `資料夾位置`輸入NAS的路徑 `\\140.124.182.163\netlab-nas`（或使用實驗室 DNS 的 `\\nas.netlab.net\netlab-nas`），下面的`登入時重新連線`建議不要勾，接著按`完成`。<br>
+    不勾的原因是如果NAS主機某天陣亡或沒開，當你使用到檔案總管的功能時，你的電腦會廣播不到這顆網路硬碟，檔案總管會卡住。<br>
+    ~~我就被卡過，他媽的還是在寫論文的時候。~~
+    
+    ![](/img/guides-4-newcomer/NAS-2.png)
 
 3.  輸入`使用者名稱`與`密碼`。
-    ### 使用者名稱:netlab
-    ### 密碼：netlab1423
-`記住我的認證`可以勾起來，下次就不用輸入了。接著按`確定`。<br>若接著出現`無法驗證遠端電腦的識別身份`，直接點`是`就可以了。<br>![](/img/guides-4-newcomer/NAS-3.png)
-<br>若無法連接，可以[參考這篇文章](https://itorz324.blogspot.com/2020/02/win10-cannot-see-network-neighborhood.html)。
+    
+    > ### 使用者名稱：netlab<br>
+    > ### 密碼：netlab1423
+    
+    `記住我的認證`可以勾起來，下次就不用輸入了。接著按`確定`。<br>若接著出現`無法驗證遠端電腦的識別身份`，直接點`是`就可以了。
+    
+    ![](/img/guides-4-newcomer/NAS-3.png)
+
+    若無法連接，可以[參考這篇文章](https://itorz324.blogspot.com/2020/02/win10-cannot-see-network-neighborhood.html)。
 
 4.  就可以開始尋找學長姐們留下的一個大密寶啦！
 
@@ -72,15 +92,24 @@ ___
 
 實驗室有一台掃描機，放在前面的主機上，要把東西掃描成電子檔就可以用。
 
-1.  按`win+r`，輸入`mstsc.exe`，點`確定`。<br>![](/img/guides-4-newcomer/Scanner-1.png)<br>或是搜尋`遠端桌面連線`，開啟 Windows 10 內建的遠端程式。
-<br>![](/img/guides-4-newcomer/Scanner-1_1.png)
+1.  按`win+r`，輸入`mstsc.exe`，點`確定`。
 
-2.  輸入掃描機的 IP address 140.124.182.163，（或使用實驗室 DNS 的 scanner.netlab.net）點`連線`。<br>![](/img/guides-4-newcomer/Scanner-2.png)
+    ![](/img/guides-4-newcomer/Scanner-1.png)
+    
+    或是搜尋`遠端桌面連線`，開啟 Windows 10 內建的遠端程式。
+    
+    ![](/img/guides-4-newcomer/Scanner-1_1.png)
+
+2.  輸入掃描機的 IP address `140.124.182.163`，（或使用實驗室 DNS 的 `scanner.netlab.net`）點`連線`。
+
+    ![](/img/guides-4-newcomer/Scanner-2.png)
 
 3.  輸入`使用者名稱`與`密碼`。
-     ### 使用者名稱：Netlab1423
-     ### 密碼：netlab1423
-<br>![](/img/guides-4-newcomer/Scanner-3.png)
+
+    > ### 使用者名稱：Netlab1423
+    > ### 密碼：netlab1423
+    
+    ![](/img/guides-4-newcomer/Scanner-3.png)
 
 4.  至於怎麼掃描就自己研究或去問學長姐吧。記得文件掃描完，要把文件從掃描機拿出來，檔案複製完，記得把檔案永久刪掉。
 
@@ -89,49 +118,87 @@ ___
 
 實驗室有兩臺印表機可以用，可是兩臺都只能列印黑白文件QQ。
 
-1.  `開始`>`設定`>`裝置`>`印表機與掃描器`，點`新增印表機或掃描器`。<br>![](/img/guides-4-newcomer/Printer-1.png)
+1.  `開始`>`設定`>`裝置`>`印表機與掃描器`，點`新增印表機或掃描器`。
 
-2.  讓他轉一下，轉完拉到下面，點`我想要的印表機未列出`。不從這邊找我們實驗室的印表機，主要是因為這邊會找到北科所有的網路印表機，基於安全考量，我們實驗室的兩台印表機架於路由器的區網內，因此不會出現在這裡。~~全北科的印表機都列在這裡了。~~<br>![](/img/guides-4-newcomer/Printer-2.png)
+    ![](/img/guides-4-newcomer/Printer-1.png)
 
-3.  選第三個`使用 IP 位址或主機名稱新增印表機`，按`下一步`。<br>![](/img/guides-4-newcomer/Printer-3.png)
+2.  讓他轉一下，轉完拉到下面，點`我想要的印表機未列出`。不從這邊找我們實驗室的印表機，主要是因為這邊會找到北科所有的網路印表機，基於安全考量，我們實驗室的兩台印表機架於路由器的區網內，因此不會出現在這裡。~~全北科的印表機都列在這裡了。~~
 
-4.  選`TCP/IP 裝置`，輸入`主機名稱或 IP 位址` 和 `連接埠名稱`。取消勾選`查詢印表機並自動選取要使用的驅動程式`，接著按`下一步`。<br>![](/img/guides-4-newcomer/Printer-4.png)
-    + M601
-        + 主機名稱或 IP 位址：140.124.182.166（或使用實驗室 DNS 的 printer.netlab.net）
-        + 連接埠名稱：M601
-    + M608
-        + 主機名稱或 IP 位址：140.124.182.166（或使用實驗室 DNS 的 printer.netlab.net）
-        + 連接埠名稱：M608
+    ![](/img/guides-4-newcomer/Printer-2.png)
 
-5.  接著讓他跑一下。<br>![](/img/guides-4-newcomer/Printer-5.png)
+3.  選第三個`使用 IP 位址或主機名稱新增印表機`，按`下一步`。
 
-6.  當出現這個畫面時不要緊張，選`自訂`並按`設定`。<br>![](/img/guides-4-newcomer/Printer-6.png)
+    ![](/img/guides-4-newcomer/Printer-3.png)
 
-7.  輸入`連接埠號碼`，以M601為例，完成後按`確定`，接著按`下一步`。<br>![](/img/guides-4-newcomer/Printer-7.png)
-    + 連接埠號碼
-        + M601：601
-        + M608：608
+4.  選`TCP/IP 裝置`，輸入`主機名稱或 IP 位址` 和 `連接埠名稱`。取消勾選`查詢印表機並自動選取要使用的驅動程式`，接著按`下一步`。
 
-8.  當出現`安裝印表機驅動程式`畫面時，因為 Windows 預設並沒有載入`HP`製造商，所以需要點`Windows Update`。<br>![](/img/guides-4-newcomer/Printer-8.png)
+    ![](/img/guides-4-newcomer/Printer-4.png)
 
-9. 讓他更新印表機清單，大約需要5分鐘時間...<br>![](/img/guides-4-newcomer/Printer-9.png)
+    > M601：
 
-10. 當`安裝印表機驅動程式`畫面再次出現時，選擇`製造商` 和 `印表機`。以M601為例，接著按`下一步`。<br>![](/img/guides-4-newcomer/Printer-10.png)
-    + 製造商：HP
-    + 印表機
-        + M601：HP LaserJet Enterprise 600 M601 M602 M603 PCL6
-        + M608：HP LaserJet M607 M608 M609 PCL-6 或<br>&emsp;&emsp;&emsp;&nbsp;&nbsp;HP LaserJet M607 M608 M609 PCL-6 (V4)
+        主機名稱或 IP 位址：140.124.182.166（或使用實驗室 DNS 的 printer.netlab.net）
+        連接埠名稱：M601
+    
+    > M608：
+    
+        主機名稱或 IP 位址：140.124.182.166（或使用實驗室 DNS 的 printer.netlab.net）
+        連接埠名稱：M608
 
-11. 輸入`印表機名稱`，以M601為例，接著按`下一步`。<br>![](/img/guides-4-newcomer/Printer-11.png)
-* 這裡建議更改預設印表機名稱，以後好辨認。例如：
-    + M601：HP LaserJet M601
-    + M608：HP LaserJet M608
+5.  接著讓他跑一下。
+    
+    ![](/img/guides-4-newcomer/Printer-5.png)
 
-12.  接著讓他跑一下。<br>![](/img/guides-4-newcomer/Printer-12.png)
+6.  當出現這個畫面時不要緊張，選`自訂`並按`設定`。
 
-13. 選`不共用印表機`，按`下一步`。<br>![](/img/guides-4-newcomer/Printer-13.png)
+    ![](/img/guides-4-newcomer/Printer-6.png)
 
-14.  接著就能使用囉！可以按一下`列印測試頁`，測試是不是真的可以印出東西。<br>![](/img/guides-4-newcomer/Printer-14.png)
+7.  輸入`連接埠號碼`，以M601為例，完成後按`確定`，接著按`下一步`。
+    
+    ![](/img/guides-4-newcomer/Printer-7.png)
+    
+    **連接埠號碼**
+    > M601：`601`
+
+    > M608：`608`
+
+8.  當出現`安裝印表機驅動程式`畫面時，因為 Windows 預設並沒有載入`HP`製造商，所以需要點`Windows Update`。
+
+    ![](/img/guides-4-newcomer/Printer-8.png)
+
+9. 讓他更新印表機清單，大約需要5分鐘時間...
+    
+    ![](/img/guides-4-newcomer/Printer-9.png)
+
+10. 當`安裝印表機驅動程式`畫面再次出現時，選擇`製造商` 和 `印表機`。以M601為例，接著按`下一步`。
+
+    ![](/img/guides-4-newcomer/Printer-10.png)
+    
+    **製造商**：`HP`<br>
+    **印表機**：
+    > M601：`HP LaserJet Enterprise 600 M601 M602 M603 PCL6`
+
+    > M608：`HP LaserJet M607 M608 M609 PCL-6` 或<br>&emsp;&emsp;&emsp;&nbsp;&nbsp;`HP LaserJet M607 M608 M609 PCL-6 (V4)`
+
+11. 輸入`印表機名稱`，以M601為例，接著按`下一步`。
+
+    ![](/img/guides-4-newcomer/Printer-11.png)
+
+    **這裡建議更改預設印表機名稱，以後好辨認。 例如：**
+    > M601：`HP LaserJet M601`
+    
+    > M608：`HP LaserJet M608`
+
+12. 接著讓他跑一下。
+
+    ![](/img/guides-4-newcomer/Printer-12.png)
+
+13. 選`不共用印表機`，按`下一步`。
+    
+    ![](/img/guides-4-newcomer/Printer-13.png)
+
+14. 接著就能使用囉！可以按一下`列印測試頁`，測試是不是真的可以印出東西。
+
+    ![](/img/guides-4-newcomer/Printer-14.png)
 
 ### 注意事項
 
@@ -214,9 +281,9 @@ ___
 
 | AP上的標籤編號 | SSID | Password | IP |
 |:----------:|:----------:|:----------:|:----------:|
-| 1 | Netlab / Netlab_5G | netlab1423 | 140.124.182.165
-| 2 | NTUT-Netlab / NTUT-Netlab_5G | netlab1423 | 140.124.182.166
+| 1 | NTUT-Netlab 1 / NTUT-Netlab 1_5G | netlab1423 | 140.124.182.165
+| 2 | NTUT-Netlab 2 / NTUT-Netlab 2_5G | netlab1423 | 140.124.182.166
 
 以上架設於 2024 年
 
-##### Start from 2021, Last update 2025.09.04
+##### Start from 2021, Last update 2025.09.11
