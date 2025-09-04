@@ -154,9 +154,10 @@ ___
     
     ![](/img/guides-4-newcomer/Printer-7.png)
     
-    > 連接埠號碼：<br>
-    > + M601：601<br>
-    > + M608：608
+    **連接埠號碼**
+    > M601：`601`
+
+    > M608：`608`
 
 8.  當出現`安裝印表機驅動程式`畫面時，因為 Windows 預設並沒有載入`HP`製造商，所以需要點`Windows Update`。
 
@@ -170,18 +171,20 @@ ___
 
     ![](/img/guides-4-newcomer/Printer-10.png)
     
-    > 製造商：HP<br>
-    > 印表機：<br>
-    > * M601：HP LaserJet Enterprise 600 M601 M602 M603 PCL6
-    > * M608：HP LaserJet M607 M608 M609 PCL-6 或<br>&emsp;&emsp;&emsp;&nbsp;&nbsp;HP LaserJet M607 M608 M609 PCL-6 (V4)
+    **製造商**：`HP`<br>
+    **印表機**：
+    > M601：`HP LaserJet Enterprise 600 M601 M602 M603 PCL6`
+
+    > M608：`HP LaserJet M607 M608 M609 PCL-6` 或<br>&emsp;&emsp;&emsp;&nbsp;&nbsp;`HP LaserJet M607 M608 M609 PCL-6 (V4)`
 
 11. 輸入`印表機名稱`，以M601為例，接著按`下一步`。
 
     ![](/img/guides-4-newcomer/Printer-11.png)
 
     ### 這裡建議更改預設印表機名稱，以後好辨認。 例如：
-    > * M601：HP LaserJet M601
-    > * M608：HP LaserJet M608
+    > M601：`HP LaserJet M601`
+    
+    > M608：`HP LaserJet M608`
 
 12. 接著讓他跑一下。
 
