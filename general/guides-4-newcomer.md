@@ -33,7 +33,7 @@ ___
 5.  找到`網際網路通訊協定第 4 版(TCP/IPv4)`，點`內容`。<br>![](/img/guides-4-newcomer/SetNetwork-5.png)
 
 6.  選`使用下列的IP位址`，`IP位址`總管會給你，遮罩是`255.255.255.0`，閘道是`140.124.182.254`，慣用的DNS則是`140.124.13.1`。點`確定`。再點`確定`。<br>![](/img/guides-4-newcomer/SetNetwork-6.png)
-* `其他 DNS 伺服器` 可以額外輸入實驗室專用 DNS：`140.124.182.163`，之後存取實驗室公用設備時，就不需記住對應的 IP。
+* `其他 DNS 伺服器` 可以實驗室專用 DNS 設為主要 DNS IP：`140.124.182.163`，之後存取實驗室公用設備時，就不需記住對應的 IP。
 
 7.  若沒有輸入錯誤，應該就有網路了。
 
@@ -44,7 +44,7 @@ ___
 
 1.  開啟`本機`後，點`連線網路磁碟機`。<br>![](/img/guides-4-newcomer/NAS-1.png)  
 
-2.  `資料夾位置`輸入NAS的路徑 `\\140.124.182.163\netlab-nas`（或實驗室 DNS 專用的 `\\nas.netlab1423.net\netlab-nas`），下面的`登入時重新連線`建議不要勾，接著按`完成`。<br>不勾的原因是如果NAS主機某天陣亡或沒開，當你使用到檔案總管的功能時，你的電腦會廣播不到這顆網路硬碟，檔案總管會卡住。<br>~~我就被卡過，他媽的還是在寫論文的時候。~~<br>![](/img/guides-4-newcomer/NAS-2.png)
+2.  `資料夾位置`輸入NAS的路徑 `\\140.124.182.163\netlab-nas`（或實驗室 DNS 專用的 `\\nas.netlab.net\netlab-nas`），下面的`登入時重新連線`建議不要勾，接著按`完成`。<br>不勾的原因是如果NAS主機某天陣亡或沒開，當你使用到檔案總管的功能時，你的電腦會廣播不到這顆網路硬碟，檔案總管會卡住。<br>~~我就被卡過，他媽的還是在寫論文的時候。~~<br>![](/img/guides-4-newcomer/NAS-2.png)
 
 3.  輸入`使用者名稱`與`密碼`。
     ### 使用者名稱:netlab
@@ -62,7 +62,7 @@ ___
 1.  按`win+r`，輸入`mstsc.exe`，點`確定`。<br>![](/img/guides-4-newcomer/Scanner-1.png)<br>或是搜尋`遠端桌面連線`，開啟 Windows 10 內建的遠端程式。
 <br>![](/img/guides-4-newcomer/Scanner-1_1.png)
 
-2.  輸入掃描機的 IP address 140.124.182.163，（或實驗室 DNS 專用的 scanner.netlab1423.net）點`連線`。<br>![](/img/guides-4-newcomer/Scanner-2.png)
+2.  輸入掃描機的 IP address 140.124.182.163，（或實驗室 DNS 專用的 scanner.netlab.net）點`連線`。<br>![](/img/guides-4-newcomer/Scanner-2.png)
 
 3.  輸入`使用者名稱`與`密碼`。
      ### 使用者名稱：Netlab1423
@@ -84,10 +84,10 @@ ___
 
 4.  選`TCP/IP 裝置`，輸入`主機名稱或 IP 位址` 和 `連接埠名稱`。取消勾選`查詢印表機並自動選取要使用的驅動程式`，接著按`下一步`。<br>![](/img/guides-4-newcomer/Printer-4.png)
     + M601
-        + 主機名稱或 IP 位址：140.124.182.166（或實驗室 DNS 專用的 printer.netlab1423.net）
+        + 主機名稱或 IP 位址：140.124.182.166（或實驗室 DNS 專用的 printer.netlab.net）
         + 連接埠名稱：M601
     + M608
-        + 主機名稱或 IP 位址：140.124.182.166（或實驗室 DNS 專用的 printer.netlab1423.net）
+        + 主機名稱或 IP 位址：140.124.182.166（或實驗室 DNS 專用的 printer.netlab.net）
         + 連接埠名稱：M608
 
 5.  接著讓他跑一下。<br>![](/img/guides-4-newcomer/Printer-5.png)
