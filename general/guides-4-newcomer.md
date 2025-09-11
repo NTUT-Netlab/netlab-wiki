@@ -175,7 +175,7 @@ ___
     
     **製造商**：`HP`<br>
     **印表機**：
-    > M601：`HP LaserJet Enterprise 600 M601 M602 M603 PCL6`
+    > M601：`HP LaserJet 600 M601 M602 M603 PCL6`
 
     > M608：`HP LaserJet M607 M608 M609 PCL-6` 或<br>&emsp;&emsp;&emsp;&nbsp;&nbsp;`HP LaserJet M607 M608 M609 PCL-6 (V4)`
 
