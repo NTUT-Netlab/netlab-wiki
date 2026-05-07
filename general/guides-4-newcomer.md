@@ -136,12 +136,12 @@ ___
 
     > M601：
 
-        主機名稱或 IP 位址：140.124.182.166（或使用實驗室 DNS 的 printer.netlab.net）
+        主機名稱或 IP 位址：140.124.182.165（或使用實驗室 DNS 的 printer.netlab.net）
         連接埠名稱：M601
     
     > M608：
     
-        主機名稱或 IP 位址：140.124.182.166（或使用實驗室 DNS 的 printer.netlab.net）
+        主機名稱或 IP 位址：140.124.182.165（或使用實驗室 DNS 的 printer.netlab.net）
         連接埠名稱：M608
 
 5.  接著讓他跑一下。
@@ -281,8 +281,7 @@ ___
 
 | AP上的標籤編號 | SSID | Password | IP |
 |:----------:|:----------:|:----------:|:----------:|
-| 1 | NTUT-Netlab 1 / NTUT-Netlab 1_5G | netlab1423 | 140.124.182.165
-| 2 | NTUT-Netlab 2 / NTUT-Netlab 2_5G | netlab1423 | 140.124.182.166
+| 1 | NTUT-Netlab / NTUT-Netlab 5G | netlab1423 | 140.124.182.165
 
 以上架設於 2024 年
 
