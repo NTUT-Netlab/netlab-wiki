@@ -71,11 +71,15 @@
 吳大的生日在8/2，基本上會落在口試完的隔週，如果有時間，或許可以幫老師慶生一下，順便可以拍張合照。
 
 # 現任總管與網管
+## 114
+| [<img src="https://avatars.githubusercontent.com/u/91931219?v=4" width="100px;"/><br /><sub><b>ChungYuLi2002</b></sub>](https://github.com/ChungYuLi2002)<br />總管 網管 | 
+| :---: |
+
+# 歷任總管與網管
 ## 113
 | [<img src="https://avatars.githubusercontent.com/u/66701496?v=4" width="100px;"/><br /><sub><b>NTUT-Leo</b></sub>](https://github.com/NTUT-Leo)<br />總管 網管 | [<img src="https://avatars.githubusercontent.com/u/112480670?v=4" width="100px;"/><br /><sub><b>yokito0305</b></sub>](https://github.com/yokito0305)<br />網管 |
 | :---: | :---: |
 
-# 歷任總管與網管
 ## 112
 | [<img src="https://avatars.githubusercontent.com/u/11360977?v=4" width="100px;"/><br /><sub><b>shao0324</b></sub>](https://github.com/shao0324)<br />總管 網管 | 
 | :---: |
