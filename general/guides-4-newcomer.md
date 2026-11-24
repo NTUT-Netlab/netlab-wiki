@@ -161,11 +161,11 @@ ___
 
     > M608：`608`
 
-8.  當出現`安裝印表機驅動程式`畫面時，因為 Windows 預設並沒有載入`HP`製造商，所以需要點`Windows Update`。
+8.  當出現`安裝印表機驅動程式`畫面時，請點選`從磁片安裝`。
 
     ![](/img/guides-4-newcomer/Printer-8.png)
 
-9. 讓他更新印表機清單，大約需要5分鐘時間...
+9. 選擇 NAS資料夾底下的 \●驅動\PrinterDrivers\{對應的驅動資料夾}\{name}.inf
     
     ![](/img/guides-4-newcomer/Printer-9.png)
 
